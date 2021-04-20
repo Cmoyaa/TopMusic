@@ -3,7 +3,24 @@
     padding: 0;
 }
 
-body {
+.nav {
+    
+    margin-left: 10px;
+    padding: 8px 18px;
+    font-weight:600 ;
+}
+
+.nav-pills > li > a.active {
+    background-color: #100d3a !important;
+    color: #ffffff !important;
+  }
+  
+  .nav-pills > li > a:hover {
+    color: #403bce !important;
+  }
+  
+
+body{
     background-image: url("https://pixabay.com/get/gb0465385f20b20db0dd8ee2c71614c3403ffcd76edc42b350d8e78ee382b015ed3a7b0bfd412e9436bf430a4a0a39892_1920.jpg");
     height: 100%;
     background-size: cover;
@@ -11,12 +28,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.navbar-brand, .nav-pills{
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
 
 .texto {
     width: 100%;
@@ -28,9 +39,7 @@ body {
     color: rgb(238, 228, 228);
     overflow: hidden;
     text-align: center;
-}
-.texto>h1 {
-    font-size: 80px;
+    font-display: flex;
 }
 
 .mapa {
@@ -58,7 +67,7 @@ ul {
 
 .tituloForm {
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
     color: bisque;
 }
 
@@ -136,7 +145,6 @@ ul {
     text-decoration: rgb(63, 104, 216);
 }
 
-/* LARGE SIZE */
 @media(min-width: 700px) {
     body {
         padding: 0;
