@@ -4,7 +4,6 @@
 }
 
 .nav {
-    
     margin-left: 10px;
     padding: 8px 18px;
     font-weight:600 ;
@@ -21,7 +20,7 @@
   
 
 body{
-    background-image: url("https://pixabay.com/get/gb0465385f20b20db0dd8ee2c71614c3403ffcd76edc42b350d8e78ee382b015ed3a7b0bfd412e9436bf430a4a0a39892_1920.jpg");
+    background-image: url(https://pixabay.com/get/gb0465385f20b20db0dd8ee2c71614c3403ffcd76edc42b350d8e78ee382b015ed3a7b0bfd412e9436bf430a4a0a39892_1920.jpg);
     height: 100%;
     background-size: cover;
     background-position: center;
