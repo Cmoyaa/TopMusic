@@ -1,0 +1,25 @@
+.nav {
+    
+    margin-left: 10px;
+    padding: 8px 18px;
+    font-weight:600 ;
+}
+
+.nav-pills > li > a.active {
+    background-color: #100d3a !important;
+    color: #ffffff !important;
+  }
+  
+  .nav-pills > li > a:hover {
+    color: #403bce !important;
+  }
+  
+
+body{
+    background-image: url(https://img2.goodfon.com/wallpaper/nbig/d/63/vinyl-macro-vinil-plastinka.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

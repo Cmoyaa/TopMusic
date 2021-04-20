@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://pixabay.com/get/gb0465385f20b20db0dd8ee2c71614c3403ffcd76edc42b350d8e78ee382b015ed3a7b0bfd412e9436bf430a4a0a39892_1920.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-brand, .nav-pills{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.texto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(238, 228, 228);
+    overflow: hidden;
+    text-align: center;
+}
+.texto>h1 {
+    font-size: 80px;
+}
+
+.mapa {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+}
+
+.tituloForm {
+    text-align: center;
+    font-size: 3em;
+    color: bisque;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background:#222222;
+    color: #fff;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+    color: #fff
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contact-form form button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: rgb(90, 133, 224);
+    color: #fff;
+    transition: background-color 0.5s ease-out;
+    outline: 0;
+}
+
+.contact-info {
+    background: rgb(22, 21, 21);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p, a{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color:white;
+    text-decoration: rgb(63, 104, 216);
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    body {
+        padding: 0;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+
+
+.enviado {
+    width: 100%;
+    height: 100px;
+    background-image: url("https://pixabay.com/get/g57aa23b11425bb3423d32699a422a65ee4f87f6340fdc995bf6fb0a7d24145b0edee96693fbac5f6bde317944ffee59a_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
