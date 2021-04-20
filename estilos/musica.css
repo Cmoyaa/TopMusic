@@ -1,0 +1,57 @@
+.navbar-brand, .nav-pills{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+img{
+    position: relative;
+    margin: auto;
+}
+
+#nuestros {
+    text-align: center;
+    background-color: powderblue;
+}
+
+.card{
+    padding-top: 15px;
+
+}
+
+.card img{
+    width: 300px;
+    height: 260px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    padding-top: 15px;
+}
+
+#segunda{
+    padding-top: 6%;
+}
+
+#uno{
+    background-color: sandybrown;
+    margin: auto;
+}
+
+#dos{
+    background-color: royalblue;
+    margin: auto;
+}
+
+#tres{
+    background-color: salmon;
+    margin: auto;
+}
